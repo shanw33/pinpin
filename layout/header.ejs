@@ -1,0 +1,82 @@
+<div class="border-bottom border-primary border-5 position-sticky top-0 bg-white z-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <h1 class="logo mb-5 me-4">
+                            <a href="#"><img src="../assets/images/logo.jpg" alt="" /></a>
+                        </h1>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu-group w-100" id="navbarNav">
+                            <ul class="navbar-nav menu d-flex fs-6">
+                                <li class="text-gray px-3"><a href="#">關於</a></li>
+                                <li class="px-3"><a href="#">挖寶</a></li>
+                                <li class="px-3"><a href="#">我有個大膽的想法</a></li>
+                            </ul>
+                            <!-- Button trigger modal -->
+                            <ul class="header-btn-group d-flex">
+                                <li class="header-btn bg-primary py-2 px-5 rounded-pill me-3">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">登入</a>
+                                </li>
+                                <li class="header-btn border border-2 border-gray-2 py-2 px-5 rounded-pill">
+                                    <a href="#">註冊</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-top border-4 border-primary">
+                <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-7">帳號</label>
+                    <input
+                        type="user"
+                        class="form-control border-0 bg-gray-5 fs-8"
+                        id="exampleFormControlInput1"
+                        placeholder=""
+                    />
+                </div>
+                <div class="mb-2">
+                    <label for="exampleFormControlInput1" class="form-label fs-7">密碼</label>
+                    <input
+                        type="user"
+                        class="form-control border-0 bg-gray-5 fs-8"
+                        id="exampleFormControlInput1"
+                        placeholder=""
+                    />
+                </div>
+                <a class="fs-7 text-gray-2" href="#">忘記密碼？</a>
+            </div>
+            <div class="modal-footer mb-3 border-0">
+                <button type="button" class="btn btn-primary w-100 rounded-pill mb-5 fw-bold">登入</button>
+                <div class="caption text-center w-100 deco-line">
+                    <p class="fs-7 text-gray-2">
+                        還沒有帳號？ <a class="fs-7 text-secondary" href="#">註冊一個帳號</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
